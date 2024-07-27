@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #5E5343;
+}
+
+header, section{
+    background-color: white;
+}
+
+/* style of HEADER */
+/*.nav{*/
+/*    padding-left: 8%;*/
+/*}*/
+
+/*.nav-link{*/
+/*    color: #5E5343;*/
+/*}*/
+
+/*.nav-link:hover{*/
+/*    color: #00BFFF;*/
+/*}*/
+/*  */
+
+
+/* style of HOME section */
+#home{
+    min-height: 780px;
+}
+.container{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.firstDiv{  /* col of my img*/
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+.personalPhoto{
+    width: 500px;
+    height: 700px;
+}
+
+.secondDiv{ /* col of my name and description */
+    margin-top: 10vh;
+}
+
+.name{
+    font-family: 'Hatton', cursive;
+}
+
+.list-group{
+    margin-top: 50px;
+}
+
+.list-group-item:hover{
+    color: deepskyblue;
+}
+
+.list-group-item{
+    padding: 50px 0 50px 0;
+}
+
+/*  */
+
+/* style of ABOUT MYSELF */
+#aboutme{
+    min-height: 780px;
+}
+
+.resume{
+    width: 100px;
+    height: 80px;
+    border-radius: 40%;
+    margin-top: 50px;
+}
+
+.resume:hover{
+    background-color: black;
+    color: white;
+}
+
+.BBPhoto{
+    width: 600px;
+    height: 700px;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 45%;
+}
+/**/
+
+/*Projects*/
+#projects{
+    min-height: 780px;
+}
+
+.project_title{
+    text-align: center;
+}
+.distance{
+    margin-top: 30px;
+}
+.games{
+    width: 355px;
+    height: 300px;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 23px;
+}
+/**/
+
+/* LINKS and CONNECT ME */
+footer{
+    margin-top: 80px;
+    height: 200px;
+    background-color: black;
+}
+
+.nav_links{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav_links:hover{
+    color: deepskyblue;
+}
+
+.icons{
+    width: 50px;
+}
+
+.git{
+    background-color: white;
+}
+/*  */
